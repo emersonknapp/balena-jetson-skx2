@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.46.1+rev2
+## (2020-01-14)
+
+* Add Gasket driver for Coral Edge TPUs [Matt Hodgson]
+* Add jetson-odmdata1-tx2 machine [Matt Hodgson]
+
 # v2.46.1+rev1
 ## (2020-01-10)
 

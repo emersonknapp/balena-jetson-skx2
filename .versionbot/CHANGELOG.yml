@@ -1,4 +1,29 @@
 - commits:
+    - subject: Add Gasket driver for Coral Edge TPUs
+      hash: edf7f5a360ade8489a0c7b8c1a26f320ad8da496
+      body: >
+        Add the gasket and apex kernel modules to support PCIe-based Coral Edge
+        TPUs
+      footer:
+        Changelog-entry: Add Gasket driver for Coral Edge TPUs
+        changelog-entry: Add Gasket driver for Coral Edge TPUs
+        Signed-off-by: Matt Hodgson <matthodgson@mac.com>
+        signed-off-by: Matt Hodgson <matthodgson@mac.com>
+      author: Matt Hodgson
+    - subject: Add jetson-odmdata1-tx2 machine
+      hash: 28c4cf6b77f87162a1d4625b0f56a452068e261b
+      body: >
+        Add a new TX2-based machine with ODMDATA set to configuration 1
+        (0x90000)
+      footer:
+        Changelog-entry: Add jetson-odmdata1-tx2 machine
+        changelog-entry: Add jetson-odmdata1-tx2 machine
+        Signed-off-by: Matt Hodgson <matthodgson@mac.com>
+        signed-off-by: Matt Hodgson <matthodgson@mac.com>
+      author: Matt Hodgson
+  version: 2.46.1+rev2
+  date: 2020-01-14T23:47:05.137Z
+- commits:
     - subject: Update meta-balena from v2.45.1 to v2.46.1
       hash: 359d9cc684e35c8c9ddfc01b2db3b41f0717aa1e
       body: |
